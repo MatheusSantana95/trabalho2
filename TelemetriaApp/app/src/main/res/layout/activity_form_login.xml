@@ -36,7 +36,7 @@
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
-        android:hint="Email"
+        android:hint="User"
         android:drawableRight="@drawable/ic_email"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/containerComponents"/>
 
-    <TextView
+    <!---<TextView
         android:id="@+id/text_tela_cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@id/progressbar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
